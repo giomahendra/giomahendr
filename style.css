@@ -16,7 +16,7 @@ animation:noise 20ms linear infinite;
 .glitch-wrapper{
 padding-top:120px;
 width:100vw;
-text-align:top;
+text-align:center;
 animation:glitch 2s linear infinite;
 margin-bottom:110px;
 }
