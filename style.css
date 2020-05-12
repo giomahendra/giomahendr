@@ -16,7 +16,7 @@ animation:noise 20ms linear infinite;
 .glitch-wrapper{
 padding-top:180px;
 width:100vw;
-text-align:top;
+text-align:top-center;
 animation:glitch 2s linear infinite;
 margin-bottom:110px;
 }
@@ -51,11 +51,11 @@ position:relative;
 z-index:2;
 opacity:.9;
 margin:0 auto;
-text-shadow:0px 0px 3px white;
+text-shadow:0px 0px 3px #81ff00;
 animation:glitch 3s infinite;
 cursor:pointer;
 font-size:52px;
-color: white;
+color: #81ff00;
 }
 
 
