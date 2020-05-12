@@ -14,11 +14,11 @@ animation:noise 20ms linear infinite;
 }
 
 .glitch-wrapper{
-padding-top:180px;
+padding-top:150px;
 width:100vw;
 text-align:center;
 animation:glitch 2s linear infinite;
-margin-bottom:90px;
+margin-bottom:110px;
 }
 
 
