@@ -14,7 +14,7 @@ animation:noise 20ms linear infinite;
 }
 
 .glitch-wrapper{
-padding-top:120px;
+padding-top:180px;
 width:100vw;
 text-align:center;
 animation:glitch 2s linear infinite;
@@ -28,7 +28,7 @@ font-weight:bold;
 }
 
 .glitch-text::before{
-content:'TROJANS TROOPS';
+content:'RESISTENTI';
 color:black;
 text-shadow:0px 0px 5px 10px black!IMPORTANT;
 -webkit-filter: blur(7px);
