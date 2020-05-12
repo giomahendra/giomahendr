@@ -25,6 +25,7 @@ margin-bottom:110px;
 .glitch-text, button{
 font-family: monospace;
 font-weight:bold;
+font-color: #81ff00;
 }
 
 .glitch-text::before{
