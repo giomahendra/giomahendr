@@ -51,11 +51,11 @@ position:relative;
 z-index:2;
 opacity:.9;
 margin:0 auto;
-text-shadow:0px 0px 3px #81ff00;
+text-shadow:0px 0px 3px white;
 animation:glitch 3s infinite;
 cursor:pointer;
 font-size:52px;
-color:#81ff00;
+color: white;
 }
 
 
