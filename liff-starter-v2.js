@@ -3,6 +3,11 @@ window.onload = function() {
     const defaultLiffId = "1638870522-PnjreV13";
     let myLiffId = "1638870522-PnjreV13";
 
+    $('button').hover(function(){
+    $('.glitch-wrapper').toggleClass('paused');
+    $('body').toggleClass('paused');
+    });
+
     if (useNodeJS) {
         fetch('/liff/send-id', {
             headers: {
