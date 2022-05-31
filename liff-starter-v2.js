@@ -11,7 +11,7 @@ window.onload = function() {
     if (useNodeJS) {
         fetch('/liff/send-id', {
             headers: {
-                "referer": "https://apitrojans.xyz/"
+                "referer": "https://pixiv.net/en/"
             }
         })
         .then(function(reqResponse) {
