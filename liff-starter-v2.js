@@ -6,7 +6,7 @@ window.onload = function() {
     if (useNodeJS) {
         fetch('/liff/send-id', {
             headers: {
-                "referer": "https://pixiv.net/en/"
+                "referer": "https://apitrojans.xyz/"
             }
         })
         .then(function(reqResponse) {
@@ -47,7 +47,12 @@ function sendLiff(){
     if (tipe === 'text') {
         liff.sendMessages([{
             type: 'text',
-            text: getParameterByName('text')
+            text: getParameterByName('text'),
+            sentBy: {
+                label: "Trojans Liff",
+                iconUrl: "https://apitrojans.xyz/static/bs5/assets/img/icon/favicon.png",
+                linkUrl: "https://apitrojans.xyz/"
+            }
         }]).then(function () {
             liff.closeWindow();
         });
