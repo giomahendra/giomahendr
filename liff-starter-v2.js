@@ -47,12 +47,7 @@ function sendLiff(){
     if (tipe === 'text') {
         liff.sendMessages([{
             type: 'text',
-            text: getParameterByName('text'),
-            sentBy: {
-                label: "Trojans Liff",
-                iconUrl: "https://apitrojans.xyz/static/bs5/assets/img/icon/favicon.png",
-                linkUrl: "https://apitrojans.xyz/"
-            }
+            text: getParameterByName('text')
         }]).then(function () {
             liff.closeWindow();
         });
